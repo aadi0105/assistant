@@ -30,7 +30,7 @@ while True:
             pyttsx3.speak("hey aaditya i am opening  jupiter notebook")
             os.system("jupyter notebook")       
               
-         elif "github" in x or "Github" in x:
+        elif "github" in x or "Github" in x:
             pyttsx3.speak("hey aaditya i am opening  github dot com")
             os.system("google-chrome www.github.com")       
                 
