@@ -28,8 +28,12 @@ while True:
             
         elif "jupyter" in x or "jupyter notebook" in x:
             pyttsx3.speak("hey aaditya i am opening  jupiter notebook")
-            os.system("jupyter notebook")
+            os.system("jupyter notebook")       
               
+         elif "github" in x or "Github" in x:
+            pyttsx3.speak("hey aaditya i am opening  github dot com")
+            os.system("google-chrome www.github.com")       
+                
         else:
             pyttsx3.speak("do not support")
 
